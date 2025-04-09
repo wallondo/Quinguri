@@ -57,9 +57,9 @@ export default function Header(){
                         <span className="js1 zero"><img src="/js.png" alt="" /></span>
                             <span className="html zero"><img src="/react.js.png" alt="" /></span>
                             <span className="css zero"><img src="/github.png" alt="" /></span>
-                            <span className="js zero"><img src="/php.png" alt="" /></span>
+                            <span className="js zero"><img src="/mongo.png" alt="" /></span>
                             <span className="php zero"><img src="/sql.png" alt="" /></span>
-                            <span className="sql zero"><img src="/mongo.png" alt="" /></span>
+                            <span className="sql zero"><img src="/php.png" alt="" /></span>
                         </div>
                     </div>
                 </article>

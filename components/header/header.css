@@ -91,7 +91,7 @@ header .sec_eu p{
 .photo_me{
     height: 300px;
     width: 250px;
-    background-image: url(eu1.png);
+    background-image: url("/eu1.png");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
