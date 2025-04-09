@@ -1,0 +1,106 @@
+@import url("root.css");
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    align-items: center;
+}
+/* for all elements */
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttom{
+    border: none;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(224, 94, 8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    font-size: .8rem;
+    cursor: pointer;
+
+}
+
+/* hover */
+header li a:hover{
+    outline: 1px solid var(--orange);
+}
+header li a:active{
+    outline: 1px solid darkblue;
+}
+.out_mov:hover{
+    color: black;
+}
+.out_mov:active{
+    color: white;
+}
+.bt_box li:hover{
+    outline: 2px solid var(--orange);
+    border-radius: 100%;
+}
+.bt_hover:hover{
+    outline: 2px solid var(--orange);
+    color: black;
+}
+.experenci a:hover{
+    outline: 2px solid var(--orange);
+    color: black;
+}
+.footer button:hover{
+    outline: 2px solid skyblue;
+    color: skyblue;
+}
+.bt_hover:active , .experenci a:active{
+    color: white;
+}
+/* efect */
+
+.out_mov{
+
+    outline: 1px solid black;
+
+    animation: mov 2s 0s  infinite linear;
+}
+
+@keyframes mov{
+    from{
+        outline: 0px solid rgb(224, 94, 8);
+    }
+    to{
+        outline: 20px solid rgb(240, 224, 214);
+    }
+    
+}
+
+.zero{
+    left: 0px !important;
+    top: 0px !important;
+}
+.rotam{
+
+    animation: rota 4s 0s infinite linear;
+}
+@keyframes rota{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-300deg);
+    }
+}
+
+
+
+

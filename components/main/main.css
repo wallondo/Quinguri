@@ -1,0 +1,235 @@
+.main_conponent{
+    width: 80%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main_me{
+    position: relative;
+    display: flex;
+    padding-top: 2%;
+    margin-bottom: 5rem;
+}
+.main_me_photo{
+    height: 300px;
+    width: 250px;
+    background-image: url(eu2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 70%;
+}
+.main_me_txt{
+    width: 60%;
+    overflow: hidden;
+    transition: all 2s !important;
+}
+.main_me_txt_height{
+    height: 250px;
+}
+.main_me_txt ol{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main_me_txt li{
+    list-style: none;
+    width: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_me_txt > h4{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem 0rem;
+    align-items: center;
+}
+.main_me_txt li img{
+    width: 40px;
+    height: 40px;
+}
+.main_me_txt li h3{
+    text-align: center;
+    color: rgb(1, 1, 53);
+}
+.main_me_txt li p{
+    text-align: center;
+}
+
+.experenci_sec{
+    margin: 3rem 0rem;
+}
+.experenci{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.experenci > h1{
+    width: 100%;
+    text-align:center;
+}
+.experenci ol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.experenci ol li h3{
+    margin: 2px 0px;
+}
+.experenci ol li{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 2px;
+    margin: 1rem 2rem;
+}
+.experenci ol li img{
+    width: 40px;
+    height: 40px;
+}
+.experenci ol li a{
+    margin-bottom: 4px;
+    width: 70px !important;
+    height: 30px !important;
+    text-decoration: none;
+}
+.experenci ol .html{
+  box-shadow: -3px 4px  7px rgb(219, 91, 5);
+}
+.experenci ol .css3{
+  box-shadow: -3px 4px  7px rgb(5, 37, 219);
+}
+.experenci ol .jsx{
+  box-shadow: -3px 4px  7px rgb(187, 140, 11);
+}
+.experenci ol .nod{
+  box-shadow: -3px 4px  7px rgb(37, 151, 2);
+}
+.experenci ol .mong1{
+  box-shadow: -3px 4px  7px rgb(2, 95, 9);
+}
+.experenci ol .php8{
+  box-shadow: -3px 4px  7px rgb(2, 16, 134);
+}
+.experenci ol .mysql{
+  box-shadow: -3px 4px  7px rgb(5, 62, 219);
+}
+.experenci ol .boot{
+    box-shadow: -3px 4px 7px rgb(30, 3, 92);
+}
+.experenci ol .react{
+  box-shadow: -3px 4px  7px rgb(3, 171, 248);
+}
+.experenci ol .git{
+  box-shadow: -3px 4px  7px rgb(7, 5, 75);
+}
+
+
+
+
+
+.projects{
+    min-height: 300px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.projects h2, .projects h4{
+    text-align: center;
+}
+
+.projects_list{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 2rem 0rem;
+}
+.projects_list ol{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.projects_list ol li{
+    min-width: 300px;
+    display: flex;
+    margin: 2rem 0rem;
+}
+.projects > h4{
+    margin: 1rem 0rem 3rem 0rem;
+}
+.projects_list ol li div{
+    min-width: 300px;
+    margin-left: 3rem;
+    min-height: 250px;
+    position: relative;
+}
+.projects_list ol li .img_div{
+    border-radius: 10px;
+    box-shadow: -5px 6px 6px rgb(108, 108, 241);
+}
+.projects_list ol li .img_div img{
+    width: 100%;
+    height: 105%;
+    position: absolute;
+    top: -10%;
+    left: 8%;
+    border-radius: 5%;
+}
+/* to left */
+.projects_list ol li .img_div_left{
+    border-radius: 10px;
+    box-shadow: 5px 6px 6px rgb(108, 108, 241);
+}
+.projects_list ol li .img_div_left img{
+    width: 100%;
+    height: 105%;
+    position: absolute;
+    top: -10%;
+    right: 8%;
+    border-radius: 5%;
+}
+.projects_list ol li div p{
+    margin: .5rem 0rem;
+    max-width: 300px;
+}
+.projects_list ol li div span{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.projects_list ol li div span img{
+    width: 30px;
+    height: 20px;
+}
+.others_projects{
+    color: blue;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.others_projects a{
+
+}
+
+
+
+
+

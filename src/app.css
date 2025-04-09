@@ -1,0 +1,17 @@
+.app{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+.board{
+    position: absolute;
+    border: 1px solid block;
+    z-index: 1;
+}
+.board img{
+    width: 45px;
+}

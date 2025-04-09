@@ -1,0 +1,95 @@
+@media (min-width:361 ) and ( max-width : 800px){
+}
+@media(max-width:360px){
+    header > span {
+        flex-direction: column;
+    }
+    
+    header nav {
+        width: 100%;
+    }
+    header nav ol{
+        flex-wrap: wrap;
+        flex-basis: 99% !important;
+    }
+    header nav ol li{
+        margin: .2rem;
+    }
+    .sec_eu{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .sec_eu article{
+        margin: .5rem 0rem;
+    }
+    header .sec_eu p:nth-of-type(2){
+        margin-bottom: 4rem;
+    }
+    .bt_box{
+        align-items: center !important;
+    }
+    .bt_box li{
+        width: 35px !important;
+        height: 25px !important;
+    }
+    .sec_eu article:nth-child(1){
+        width: 100% !important;
+    }
+    .main_me{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_me_txt_height{
+        width: 100% !important;
+        min-height: 370px;
+    }
+    .experenci ol li{
+        margin: .5rem !important;
+    }
+    .main_me_txt_height p{
+        margin: .5rem 0rem;
+    }
+    .main_conponent{
+        margin: 1rem 0rem;
+    }
+    .projects_list ol li{
+        flex-direction: column-reverse;
+        align-items: center;
+       
+    }
+    .projects_list .img_div{
+        margin-top: 3rem 0rem;
+    }
+    .projects_list ol li .img_div img{
+        left: 0% !important;
+        right: 0% !important;
+    }
+    .projects_list ol li div:not(:first-of-type){
+        margin-bottom: 2rem;
+    }
+    .footer{
+        border-radius: 5% !important;
+    }
+    .footer section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer section article{
+        width: 99% !important;
+        margin-top: .5rem;
+    }
+    .footer article:first-child p{
+        width: 99% !important;
+        text-align: start;
+        text-indent: 1rem;
+    }
+    .footer address{
+        padding: .5rem 0rem;
+        align-items: center !important;
+        justify-content: space-around !important;
+        flex-wrap: wrap;
+    }
+    .footer address p:nth-child(2){
+        margin: .5rem 0rem;
+    }
+}

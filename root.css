@@ -1,0 +1,11 @@
+:root{
+    --back:rgb(3, 3, 41);
+    --color_log: rgb(197, 29, 158);
+    --bt:rgb(118, 118, 158);
+    --count:rgb(11, 142, 179);
+    --borda:skyblue;
+    --red_color:rgb(243, 73, 73);
+    --yellow_color:rgba(42, 117, 23, 0.836);
+    --green_color: rgba(48, 72, 207, 0.808);
+    --orange:rgb(255, 94, 0);
+}
