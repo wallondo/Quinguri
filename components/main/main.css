@@ -15,7 +15,7 @@
 .main_me_photo{
     height: 300px;
     width: 250px;
-    background-image: url("eu2.png");
+    background-image: url("/eu2.png");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
