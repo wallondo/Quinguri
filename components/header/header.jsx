@@ -45,9 +45,9 @@ export default function Header(){
                     <div className="bt_box">
                         <a href="#contacts" className="buttom out_mov" >Contactar</a>
                         <ol>
-                            <li><img src="/whats.jpg" alt="" /></li>
-                            <li><img src="/fb.jpg" alt="" /></li>
-                            <li><img src="/git.jpg" alt="" /></li>
+                            <li><a href="https://api.whatsapp.com/send/?phone=244941137038&text=Sauda%C3%A7%C3%B5es" target="_blank" rel="noopener noreferrer"><img src="/whats.jpg" alt="" /></a></li>
+                            <li><a href="http://" target="_blank" rel="noopener noreferrer"><img src="/fb.jpg" alt="" /></a></li>
+                            <li><a href="https://github.com/wallondo" target="_blank" rel="noopener noreferrer"><img src="/git.jpg" alt="" /></a></li>
                         </ol>
                     </div>
                 </article>
