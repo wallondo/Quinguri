@@ -8,7 +8,6 @@
 header *{
     color: black;
     text-decoration: none;
-    font-family: Arial, sans-serif;
 }
 header > span{
     display: flex;
@@ -56,12 +55,13 @@ header li a{
     border-radius: 10px;
 }
 header .sec_eu{
-    min-height: 400px;
+    min-height: 100vh;
     width: 100%;
     display: flex;
+    align-items: start;
 }
 header .sec_eu article{
-    min-height: 300px;
+    min-height: 350px;
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -78,6 +78,13 @@ header .sec_eu p{
     font-weight: 600;
     color: rgb(129, 127, 127);
     margin: 2% 0%;
+    
+    font-family: "Roboto";
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    
 }
 .red_color{
     color: var(--red_color);
@@ -128,6 +135,8 @@ header .sec_eu p{
 }
 .bt_box{
     width: 50%;
+    min-height: 70px;
+    min-width: 200px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -205,4 +214,8 @@ header .sec_eu p{
     width: 70% !important;
     height: 70% !important;
 }
+/* google */
+
+
+
 

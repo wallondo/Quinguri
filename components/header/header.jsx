@@ -12,7 +12,7 @@ export default function Header(){
     }, 2000);
 
     return(
-        <header className="header">
+        <header className="header roboto">
             <span>
                <div>
                         <span>

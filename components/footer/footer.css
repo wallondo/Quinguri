@@ -1,23 +1,24 @@
 .footer{
-    min-height: 500px;
     width: 100%;
-    border-radius: 10% 10% 0% 0%;
+    border-radius: 2% 2% 0% 0%;
     background: linear-gradient(rgb(2, 23, 94),rgb(144, 196, 245));
     display: flex;
-    border: 2px dashed white;
     border-bottom: none;
     margin-top: 2rem;
     flex-direction: column;
     align-items: center;
     padding-top: 2rem;
-}
+    min-height: 100vh;
+    padding-top: 1rem;
+    justify-content: space-between;
 
+}
+    
 .footer section{
     display: flex;
     justify-content: space-around;
     width: 90%;
     margin-top: 2rem;
-    border-bottom: 1px solid white;
     padding-bottom: 1rem;
 }
 .footer h1{
@@ -128,6 +129,8 @@ input,textarea{
     width: 90%;
     min-height: 50px;
 
+    border-top: 1px solid white;
+    padding-bottom: 1rem;
 }
 
 .footer address img{
@@ -138,6 +141,7 @@ input,textarea{
 .footer address p{
     color: white;
     text-shadow: 1px 1px 1px black;
+    font-size: .7rem;
 }
 .footer address span{
     display: flex;

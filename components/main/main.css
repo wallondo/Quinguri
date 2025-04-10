@@ -11,6 +11,7 @@
     display: flex;
     padding-top: 2%;
     margin-bottom: 5rem;
+    min-height: 100vh;
 }
 .main_me_photo{
     height: 300px;
@@ -72,6 +73,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    min-height: 100vh;
+    padding-top: 1rem;
 }
 .experenci > h1{
     width: 100%;
@@ -146,6 +149,8 @@
     width: 100%;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh;
+    padding-top: 1rem;
 }
 .projects h2, .projects h4{
     text-align: center;
