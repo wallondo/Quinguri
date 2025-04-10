@@ -12,7 +12,6 @@ body,html{
     scroll-behavior: smooth;
     align-items: center;
     font-family: "Roboto";
-    overflow-x: hidden;
    
 }
 p,a{

@@ -34,6 +34,9 @@ header nav ol{
 header li{
     list-style: none;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 header > span div > span{
     height: 60px;
